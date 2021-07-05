@@ -1,6 +1,9 @@
 package main
 
-import "strconv"
+import (
+	"fmt"
+	"strconv"
+)
 
 func main() {
 	i, err := strconv.ParseInt("123", 10, 32)
@@ -12,4 +15,9 @@ func main() {
 		panic(err)
 	}
 	println(i)
+
+	v := "10"
+	if s, err := strconv.Atoi(v); err == nil {
+		fmt.Printf("%T, %v", s, s)
+	}
 }
