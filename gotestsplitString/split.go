@@ -1,4 +1,4 @@
-package splitString
+package gotestsplitString
 
 import "strings"
 
