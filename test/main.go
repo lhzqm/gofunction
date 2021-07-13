@@ -2,12 +2,9 @@ package main
 
 import "fmt"
 
+var slice1 []int
+
 func main() {
-	var numbers = make([]int, 3, 5)
-
-	printSlice(numbers)
-}
-
-func printSlice(x []int) {
-	fmt.Printf("len=%d cap=%d slice=%v\n", len(x), cap(x), x)
+	res := slice1[0]
+	fmt.Println("res:", res)
 }

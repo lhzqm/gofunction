@@ -34,5 +34,4 @@ func TestMultipleChartSplit(t *testing.T) {
 	if !reflect.DeepEqual(got, want) {
 		t.Fatalf("无法通过多字符分隔符的测试！got: %v want:%v\n", got, want) //出错就stop别往下测了！
 	}
-
 }
