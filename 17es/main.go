@@ -1,9 +1,9 @@
 package main
 
 import (
+	"github.com/elastic/go-elasticsearch"
 	"log"
 	"strings"
-	"github.com/olivere/elastic/v7"
 )
 
 func main() {
